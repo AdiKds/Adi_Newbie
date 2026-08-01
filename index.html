@@ -374,9 +374,21 @@ body { background: var(--bg-obsidian); color: var(--cyan); overflow-x: hidden; m
           <div class="action-icon" style="color: #ffaa00;"><i class="fa-solid fa-wave-square"></i></div>
           <div><div class="orbitron" style="font-size: 13px;">Monitoring Sismic</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Tsunami Early Warning</div></div>
         </a>
-        <a href="https://prompts.chat/" target="_blank" class="action-item" onclick="quickAction('Opening ChatGPT Prompt Generator portal...')" data-tip="Generator & Koleksi Prompt AI Terbaik">
-          <div class="action-icon" style="color: #ff007f;"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-          <div><div class="orbitron" style="font-size: 13px;">Prompt Generator</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Awesome AI Prompts</div></div>
+        <a href="https://adikds.github.io/-Doa-Digital-Pro/" target="_blank" class="action-item" onclick="quickAction('Opening Doa Digital Pro...')" data-tip="Kumpulan Doa Digital Pro - Cyber Islamic Edition">
+          <div class="action-icon" style="color: #a855f7;"><i class="fa-solid fa-hands-praying"></i></div>
+          <div><div class="orbitron" style="font-size: 13px;">Doa Digital Pro</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Cyber Islamic Edition</div></div>
+        </a>
+        <a href="https://adikds.github.io/ANALISIS-PONDASI-TELAPAK-/" target="_blank" class="action-item" onclick="quickAction('Opening Analisis Pondasi Telapak & Tiang Pancang...')" data-tip="Analisis Pondasi Telapak dan Tiang Pancang dengan 3D Visualisasi">
+          <div class="action-icon" style="color: #f59e0b;"><i class="fa-solid fa-layer-group"></i></div>
+          <div><div class="orbitron" style="font-size: 13px;">Analisis Pondasi</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Telapak & Tiang Pancang 3D</div></div>
+        </a>
+        <a href="https://adikds.github.io/APEX-Foundations-v3.1-Geotechnical-AI-/" target="_blank" class="action-item" onclick="quickAction('Opening Apex Foundations v3.1...')" data-tip="APN Foundations Geotechnical AI">
+          <div class="action-icon" style="color: #00ffaa;"><i class="fa-solid fa-building"></i></div>
+          <div><div class="orbitron" style="font-size: 13px;">Apex Foundations</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Geotechnical AI v3.1</div></div>
+        </a>
+        <a href="https://adikds.github.io/ai-meeting-assistant/" target="_blank" class="action-item" onclick="quickAction('Opening AI Meeting Assistant Pro...')" data-tip="AI Meeting & Notulen Assistant Pro dengan Voice Command">
+          <div class="action-icon" style="color: #ff007f;"><i class="fa-solid fa-microphone"></i></div>
+          <div><div class="orbitron" style="font-size: 13px;">AI Meeting Pro</div><div style="font-size: 11px; color: rgba(0,255,255,0.5);">Notulen & Voice Command</div></div>
         </a>
         <a href="https://adikds.github.io/MONITORING-PREDIKSI-ANGIN-MUSON-INDONESIA/" target="_blank" class="action-item" onclick="quickAction('Opening Weather & Monsoon Prediction System...')" data-tip="Monitoring Prediksi Angin Muson & Cuaca Indonesia">
           <div class="action-icon" style="color: #00ffff;"><i class="fa-solid fa-cloud-sun-rain"></i></div>
@@ -683,43 +695,53 @@ function detectDevice() {
 /* 1. DATABASE 33+ APLIKASI WEB */
 let myApps = [
   { n: "JARVIS AI", u: "https://adikds.github.io/jarvis-ai/", i: "fa-cat", d: "Superagent HUD" },
-  { n: "EduMarket Pro", u: "https://adikds.github.io/edu-market-pro/", i: "fa-graduation-cap", d: "E-Learning Market" },
-  { n: "IPTV Terminal", u: "https://adikds.github.io/iptv-terminal/", i: "fa-tv", d: "Streaming TV ID" },
-  { n: "TV Streaming Live", u: "https://adikds.github.io/TV-streaming-live/", i: "fa-signal", d: "Live Broadcast" },
-  { n: "Al-Quran Karim", u: "https://adikds.github.io/Al-Quran-Karim/", i: "fa-book-quran", d: "Digital Quran" },
-  { n: "Mega Atlas FKG", u: "https://adikds.github.io/-MEGA-ATLAS-FKG/", i: "fa-tooth", d: "Dental Atlas" },
-  { n: "Monitoring Sismic", u: "https://adikds.github.io/SISTEM-MONITORING-SEISMIK-PERINGATAN-TSUNAMI/", i: "fa-wave-square", d: "Tsunami Warning" },
-  { n: "El Nino La Nina", u: "https://adikds.github.io/MONITORING-PREDIKSI-STATUS-EI-NI-O-LA-NI-A/", i: "fa-temperature-half", d: "Climate Predict" },
-  { n: "Monitoring Cuaca", u: "https://adikds.github.io/MONITORING-PREDIKSI-ANGIN-MUSON-INDONESIA/", i: "fa-wind", d: "Monsoon Predict" },
-  { n: "Dam Analytics", u: "https://adikds.github.io/INTEGRATED-DAM-ANALYTICS-ASSESSMENT-SYSTEM/", i: "fa-water", d: "Dam Assessment" },
-  { n: "Way Apu Dam", u: "https://adikds.github.io/WAY-APU-DAM/", i: "fa-building-shield", d: "Dam Analysis" },
-  { n: "EDA AI Agents", u: "https://adikds.github.io/EVENT-DRIVEN-ARCHITECTURE-FOR-AI-AGENTS/", i: "fa-sitemap", d: "Event Architecture" },
+  { n: "Doa Digital Pro", u: "https://adikds.github.io/-Doa-Digital-Pro/", i: "fa-hands-praying", d: "Cyber Islamic Doa" },
+  { n: "Al-Quran Karim", u: "https://adikds.github.io/Al-Quran-Karim/", i: "fa-book-quran", d: "Digital Quran & Audio" },
+  { n: "AI Meeting Pro", u: "https://adikds.github.io/ai-meeting-assistant/", i: "fa-microphone", d: "Notulen & Voice" },
+  { n: "Nexus Page Agent", u: "https://adikds.github.io/NEXUS-PAGE-AGENT-VER.1.0/", i: "fa-network-wired", d: "Agent Simulator" },
+  { n: "Apex Foundations", u: "https://adikds.github.io/APEX-Foundations-v3.1-Geotechnical-AI-/", i: "fa-building", d: "Geotechnical AI v3.1" },
+  { n: "Analisis Pondasi", u: "https://adikds.github.io/ANALISIS-PONDASI-TELAPAK-/", i: "fa-layer-group", d: "Telapak & Tiang Pancang" },
+  { n: "AASHTO Soil", u: "https://adikds.github.io/AASHTO-SOIL-CLASSIFIER/", i: "fa-mountain", d: "Soil Classifier" },
+  { n: "Atlas Geoteknik", u: "https://adikds.github.io/ATLAS-GEOTEKNIK/", i: "fa-earth-americas", d: "Expert Validation" },
   { n: "GeoStructPro 15", u: "https://adikds.github.io/GeoStructPro-15-Essential-Geotechnical-Formulas/", i: "fa-mountain", d: "Geo Formulas" },
   { n: "GeoStruct Pro 20", u: "https://adikds.github.io/GEOSTRUCT-PRO-20-FORMULA-GEOTECHNICAL/", i: "fa-layer-group", d: "20 Geo Formulas" },
   { n: "USCS Soil", u: "https://adikds.github.io/UNIFIED-SOIL-CLASSIFICATION-SYSTEM/", i: "fa-cubes", d: "Soil Classifier" },
+  { n: "Way Apu Dam", u: "https://adikds.github.io/WAY-APU-DAM/", i: "fa-building-shield", d: "Dam Analysis" },
+  { n: "Dam Analytics", u: "https://adikds.github.io/INTEGRATED-DAM-ANALYTICS-ASSESSMENT-SYSTEM/", i: "fa-water", d: "Dam Assessment" },
+  { n: "Monitoring Sismic", u: "https://adikds.github.io/SISTEM-MONITORING-SEISMIK-PERINGATAN-TSUNAMI/", i: "fa-wave-square", d: "Tsunami Warning" },
+  { n: "El Nino La Nina", u: "https://adikds.github.io/MONITORING-PREDIKSI-STATUS-EI-NI-O-LA-NI-A/", i: "fa-temperature-half", d: "Climate Predict" },
+  { n: "Monitoring Cuaca", u: "https://adikds.github.io/MONITORING-PREDIKSI-ANGIN-MUSON-INDONESIA/", i: "fa-wind", d: "Monsoon Predict" },
   { n: "AeroRadar Pro", u: "https://adikds.github.io/AERORADAR-PRO/", i: "fa-plane", d: "Aviation Radar" },
   { n: "HydraCanal Pro", u: "https://adikds.github.io/HYDRACANAL-PRO-GEOMETRIC-DESIGN/", i: "fa-water-ladder", d: "Canal Design" },
-  { n: "Financial Planner", u: "https://adikds.github.io/financial-planner/", i: "fa-chart-line", d: "OTW 1 Milyar" },
+  { n: "EDA AI Agents", u: "https://adikds.github.io/EVENT-DRIVEN-ARCHITECTURE-FOR-AI-AGENTS/", i: "fa-sitemap", d: "Event Architecture" },
+  { n: "EduMarket Pro", u: "https://adikds.github.io/edu-market-pro/", i: "fa-graduation-cap", d: "E-Learning Market" },
+  { n: "IPTV Terminal", u: "https://adikds.github.io/iptv-terminal/", i: "fa-tv", d: "Streaming TV ID" },
+  { n: "TV Streaming Live", u: "https://adikds.github.io/TV-streaming-live/", i: "fa-signal", d: "Live Broadcast" },
+  { n: "POS Terminal Pro", u: "https://adikds.github.io/pos-system/", i: "fa-cash-register", d: "Cashier System" },
+  { n: "POS Kasir", u: "https://adikds.github.io/Aplikasi_Point_of_Sale_-POS-_atau_sistem_kasir/", i: "fa-store", d: "Point of Sale" },
   { n: "Business Suite", u: "https://adikds.github.io/business-suite/", i: "fa-chart-bar", d: "AppSuite Manager" },
   { n: "Stock Manager", u: "https://adikds.github.io/stock-manager/", i: "fa-boxes-stacked", d: "Inventory System" },
-  { n: "POS Terminal Pro", u: "https://adikds.github.io/Aplikasi_Point_of_Sale_-POS-_atau_sistem_kasir/", i: "fa-cash-register", d: "Cashier System" },
+  { n: "Financial Planner", u: "https://adikds.github.io/financial-planner/", i: "fa-chart-line", d: "OTW 1 Milyar" },
   { n: "Keuanganku", u: "https://adikds.github.io/KEUANGANKU/", i: "fa-wallet", d: "Finance Tracker" },
+  { n: "DOKTER AI EXPERT", u: "https://adikds.github.io/DOKTER-AI/", i: "fa-user-doctor", d: "Medical AI" },
   { n: "DARUSSYIFA V.5.0", u: "https://adikds.github.io/DARUSSYIFA-MEDIKA/", i: "fa-hospital", d: "Klinik & Apotek" },
   { n: "DARUSSYIFA V.2.0", u: "https://adikds.github.io/DARUSSYIFA_MEDIKA/", i: "fa-file-medical", d: "Medical Record" },
+  { n: "SMILE SYIFA AI", u: "https://adikds.github.io/SMILE-SYIFA-AI/", i: "fa-face-smile", d: "Dental AI" },
   { n: "SKIN SYIFA AI", u: "https://adikds.github.io/SKIN_SYIFA_AI/", i: "fa-magnifying-glass-chart", d: "Skin Cancer AI" },
   { n: "NEURO-PSYCH AI", u: "https://adikds.github.io/NEURO-PSYCH_AI/", i: "fa-brain", d: "Psychological AI" },
-  { n: "SMILE SYIFA AI", u: "https://adikds.github.io/SMILE-SYIFA-AI/", i: "fa-face-smile", d: "Dental AI" },
-  { n: "DOKTER AI EXPERT", u: "https://adikds.github.io/DOKTER-AI/", i: "fa-user-doctor", d: "Medical AI" },
+  { n: "Mega Atlas FKG", u: "https://adikds.github.io/-MEGA-ATLAS-FKG/", i: "fa-tooth", d: "Dental Atlas 12 Modul" },
+  { n: "Neurology Atlas", u: "https://adikds.github.io/Mega-Atlas-Kedokteran-Neurologi-Bedah-Syaraf/", i: "fa-brain", d: "Neuro Surgery Atlas" },
+  { n: "Statistics Engineers", u: "https://adikds.github.io/STATISTICS_for_ENGINEERS-/", i: "fa-chart-pie", d: "Engineering Stats" },
+  { n: "AI Video Editor", u: "https://adikds.github.io/AI-VIDEO-EDITOR/", i: "fa-film", d: "5 AI Features" },
+  { n: "World Cup 2026", u: "https://adikds.github.io/SIMULASI-DAN-JADWAL-SERTA-SCOR-WORLD-CUP-2026/", i: "fa-futbol", d: "Schedule & Score" },
+  { n: "Free Claude Code", u: "https://adikds.github.io/FREE-CLAUDE-CODE/", i: "fa-code", d: "Code Tool" },
   { n: "Perpustakaan", u: "https://www.f15library.com/", i: "fa-book-open-reader", d: "F15 Library Digital" },
-  { n: "Mega Atlas Geoteknik", u: "https://adikds.github.io/ATLAS-GEOTEKNIK/", i: "fa-earth-americas", d: "Geotechnical Atlas" },
-  { n: "Statistics for Engineers", u: "https://adikds.github.io/STATISTICS_for_ENGINEERS-/", i: "fa-chart-pie", d: "Engineering Stats" },
   { n: "Radio Online", u: "https://famelack.com/radio/id", i: "fa-radio", d: "Streaming Radio ID" },
   { n: "TV Online", u: "https://famelack.com/tv/id", i: "fa-tv", d: "Streaming TV Famelack" },
-  { n: "Medical Neurologi & Ilmu Bedah Saraf", u: "https://adikds.github.io/Mega-Atlas-Kedokteran-Neurologi-Bedah-Syaraf/", i: "fa-brain", d: "Neurology Atlas" },
   { n: "ADI NEWBIE", u: "https://adikds.github.io/Adi_Newbie/", i: "fa-user-astronaut", d: "Adi Newbie Portfolio" }
 ];
 
-if (localStorage.getItem('jarvis_apps_db_v6')) {
+if (false && localStorage.getItem('jarvis_apps_db_v6')) {
   try { myApps = JSON.parse(localStorage.getItem('jarvis_apps_db_v6')); } catch(e){}
 }
 
